@@ -1,1 +1,2 @@
-# neural_etalon
+# Neural evaluation of etalon transmission profile
+
