@@ -206,7 +206,7 @@ if (__name__ == '__main__'):
     eta = np.random.uniform(low=-200e-6, high=200e-6, size=n_models)
     Da = np.random.uniform(low=0.999999, high=1.000001, size=n_models)
         
-    etalon = Etalon(checkpoint='2023-10-05-14:42:45.best.pth', gpu=0, verbose=True)
+    etalon = Etalon(checkpoint='2024-01-10-09_25_54.best.pth', gpu=0, verbose=True)
 
     # start = time.time()
     # out = etalon.evaluate(angle1, angle2, xi, eta, Da, wavelength)

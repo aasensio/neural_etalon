@@ -179,7 +179,7 @@ def H11pinti_(r, theta, tau, R, F, xi, eta, xi0, eta0, k, f, wvl, theta3, nin, f
     ll=wvl0+wvl0/(16*nin**2*fnum**2) #Peak wavelength
     m = round(2* nin * d / wvl0) #Order of the resonance peak
     delta_h = ( m * ll - 2 * nin * d)/ (2 * nin) #Variation of thickness to tune again to wvl0
-    h = d + delta_h * Da
+    h =(d + delta_h) * Da
     
     ne = nin
     no = nin
